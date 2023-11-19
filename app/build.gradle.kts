@@ -53,6 +53,7 @@ dependencies {
     val composeBom = platform("androidx.compose:compose-bom:2023.10.01")
     implementation(composeBom)
     androidTestImplementation(composeBom)
+    implementation("androidx.navigation:navigation-compose:2.7.5")
 
     // Material 2
     implementation("androidx.compose.material:material")
